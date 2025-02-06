@@ -1,0 +1,3 @@
+The Animal Chess Game is a strategic two-player board game implemented in C++ using the SFML (Simple and Fast Multimedia Library). 
+The game is inspired by the concept of traditional chess, but with unique animal-themed pieces and an engaging battlefield design.
+The objective of the game is for each player to strategically move their pieces across the board and capture the enemy’s fortress, ultimately achieving victory by occupying the opponent's base.
