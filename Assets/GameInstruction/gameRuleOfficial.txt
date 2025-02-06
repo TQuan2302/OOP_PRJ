@@ -1,0 +1,32 @@
+####################################################################################################
+--------------------------------------------------------------------------Animal-Chess-Instruction--------------------------------------------------------------------------
+####################################################################################################
+1. Main menu instruction: 
+    - New Game: Start a new game 
+    - Load Game: Load the last saved game file
+    - Instruction: Open the instruction window 
+    - Quit Game: Quit the game
+2. Ingame help instruction: Press "H" while ingame to call this window
+    - Main menu: Save the game and go back to game main menu. 
+    - Instruction: Open the instruction window 
+    - Save & Quit: Save the game (i.e the position of pieces in the game) and then quit
+    - Quit without save: Quit the game without save 
+3. Game board description: 
+    - There are 2 Players in the game denoted "Blue" in the lower part and "Red" in the upper part of the board. 
+    - The text in the middle of the board denotes the corresponding turn to play (i.e "RED" is red turn, "BLUE" is blue turn) 
+    - Each side has 8 animals which are 3 dogs, 3 mice and 2 elephants.
+    - In the central area of each side is a fortress which is guarded by 3 soldiers. 
+4. Class description: 
+    - Dogs: Can only attack enemy's Mice, Fortress and Soldier.
+    - Elephants: Can only attack enemy's Dogs, Fortress and Soldier.
+    - Mice: Can only attack enemy's Elephants, Fortress and Soldier.
+    - Soldiers & Fortress: Can not move or attack.
+5. Game Rule: 
+    - When the game starts, Red moves first.
+    - Each turn the text in the middle of the board shows the corresponding side to move.
+    - To move a piece, a player needs to click on the piece they want to move and click on the square they want their piece to move to. 
+    - A piece can only move or attack vertically, horizontally one square
+    - A turn ends when a player play an eligible move or attack, then the turn switches.
+    - When an animal attacks a soldier, both the animal and soldier are eliminateed and removed from the game. 
+    - A player wins the game when either they capture all ememy's pieces or occupy the enemy's fortress. 
+    - If both side has only 1 piece left, then the game is declared a draw. 
